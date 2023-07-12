@@ -42,7 +42,7 @@ Environment : Google Chrome
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Inconsistency : Required field gest no validation in "Registration Number" unlike unrequired field
+Title : Inconsistency : Required field gest no validation in "Registration Number" unlike unrequired field
 
 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
 2. Type in username "Admin" and password "admin123"
