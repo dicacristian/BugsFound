@@ -11,16 +11,21 @@ Title : Functionality : Required "Hiring Manager" in "Vacancies" field can be le
 3. Click "Login Button"
 4. Click Recruitment
 5. Click on "Vacancies" link
-6. In “Vacancy” column click on “Analyst” link or any other “Vacancy” link
-7. Push “Edit” button
+6. In “Vacancy” column click on the first “Vacancy” link 
+7. Push “Edit” button ![image](https://github.com/dicacristian/BugsFound/assets/85904271/4041d35e-42a4-486c-ba6f-50cf54883c46)
+
 8. Delete "Hiring Manager" text field
 9. Push "Save" button
 
 **Expected Result**: Saving should not be allowed with empty “Hiring Manager” text field since it is marked as required
 
 **Actual Result**: Error message “Failed to Save” is shown, but text field is saved empty
+![photoooo](https://github.com/dicacristian/BugsFound/assets/85904271/868fb29d-2c53-47cc-9605-f1d493dd5943)
 
 Environment : Google Chrome 
+
+
+
 
 
 ______________________________________________________________________________________________________________________________________________________________________
@@ -37,7 +42,15 @@ Title : Functionality: “Job” in “My Info” cannot be edited.
  
 **Actual Result**:  Job description form has no “Edit” button and cannot be edited
 
+![bugsFOUNDDD](https://github.com/dicacristian/BugsFound/assets/85904271/09798d76-c650-4acb-acb4-9dba365be2d7)
+
+
+
+
+
 Environment : Google Chrome 
+
+
 
 
 ______________________________________________________________________________________________________________________________________________________________________
@@ -55,8 +68,15 @@ Title : Inconsistency : Required field gest no validation in "Registration Numbe
 
 Expected Result: Field should be validated just letter and numbers, not special characters
 Actual Result: Field accepts all characters
+![adsqqwwq](https://github.com/dicacristian/BugsFound/assets/85904271/f2759694-8e85-4d4d-9a85-0e1545a88f4a)
 
 Environment : Google Chrome 
+
+
+
+
+
+
 
    
    
