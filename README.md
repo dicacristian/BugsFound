@@ -4,6 +4,8 @@ Below you can see some of the bugs I found on the projects I worked on
 
 ______________________________________________________________________________________________________________________________________________________________________
 
+Bug ID : BR-1
+
 Title : Functionality : Required "Hiring Manager" in "Vacancies" field can be left blank and submitted.
 
 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
@@ -30,6 +32,8 @@ Environment : Google Chrome
 
 ______________________________________________________________________________________________________________________________________________________________________
 
+Bug ID : BR - 2
+
 Title : Functionality: “Job” in “My Info” cannot be edited.
 
 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
@@ -54,6 +58,9 @@ Environment : Google Chrome
 
 
 ______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BR - 3
+
 
 Title : Inconsistency : Required field gest no validation in "Registration Number" unlike unrequired field
 
