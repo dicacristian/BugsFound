@@ -205,4 +205,46 @@ Actual result: Nothing special happens on the website.
 
 Test data: | username: 123123 | Password: 123123 |
 
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 9
+
+Severity : Normal 
+
+Priority : Normal
+
+Title : Zip code written with letters
+
+1. Go to https://www.saucedemo.com/
+2. Log in with correct username and password
+3. Select a product
+4. In the right side, click on "Checkout"
+5. Write your First/Last name and Zip code and click on "Continue" 
+
+Expected result : The site should not let you to continue 
+
+Actual result : Proceed further towards completion of order
+
+Test data: | username: standard_user | Password: secret_sauce | First Name : test | Last name : test | Zip Code : abcd
+
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 10
+
+Title : Selecting the same product more than once
+
+Severity : Normal 
+
+Priority : Normal
+
+1. Go to https://www.saucedemo.com/
+2. Log in with correct username and password
+3. On the top right side, press the shopping cart icon
+4. Try to select the product several times
+
+Expect result : Select the number of desired products
+
+Actual result : The website doesn't let you select how many products you want 
+
+Test data: | username: standard_user | Password: secret_sauce |
 
