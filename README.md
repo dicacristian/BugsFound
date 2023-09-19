@@ -110,7 +110,10 @@ Bug ID : BF - 4
 
 Expected result : Cannot save changes and user is required to enter a date of birth now or in the past
 
-  Actual result : A new message: "Successfully Updated" 
+Actual result : A new message: "Successfully Updated" 
+
+Test data : username : Admin | password : admin123
+
 ______________________________________________________________________________________________________________________________________________________________________
 
 Bug ID : BF - 5
