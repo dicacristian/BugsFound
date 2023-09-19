@@ -4,7 +4,7 @@ Below you can see some of the bugs I found on the projects I worked on
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BR-1
+Bug ID : BF-1
 
 Title : Functionality : Required "Hiring Manager" in "Vacancies" field can be left blank and submitted.
 
@@ -32,7 +32,7 @@ Environment : Google Chrome
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BR - 2
+Bug ID : BF - 2
 
 Title : Functionality: “Job” in “My Info” cannot be edited.
 
@@ -59,7 +59,7 @@ Environment : Google Chrome
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BR - 3
+Bug ID : BF - 3
 
 
 Title : Inconsistency : Required field gest no validation in "Registration Number" unlike unrequired field
@@ -80,10 +80,25 @@ Actual Result: Field accepts all characters
 Environment : Google Chrome 
 
 
+______________________________________________________________________________________________________________________________________________________________________
 
 
+Bug ID : BF - 3
 
+Title : The message was written, but I didn't write anything
 
+1. Go to https://www.demoblaze.com/
+2. Log in with correct username and password
+3. Click on "Contact"
+4. Write anything on Contact Email/Name
+5. Do not write in the message section
 
-   
+Expected result : They should have not let you send the message and warn you that it is an empty field
+
+Actual result: Nothing special happens on the website. 
+
+Test data : username : 123123 | password : 123123
+
+   ![image](https://github.com/dicacristian/BugsFound/assets/85904271/e36a7ee8-bd4c-4125-920f-c18880c664fc)
+
    
