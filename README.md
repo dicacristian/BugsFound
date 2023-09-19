@@ -8,6 +8,10 @@ Bug ID : BF-1
 
 Title : Functionality : Required "Hiring Manager" in "Vacancies" field can be left blank and submitted.
 
+Severity : Low 
+
+Priority : Low 
+
 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 2. Type in username "Admin" and password "admin123"
 3. Click "Login Button"
@@ -35,6 +39,11 @@ ________________________________________________________________________________
 Bug ID : BF - 2
 
 Title : Functionality: “Job” in “My Info” cannot be edited.
+
+
+Severity : Low 
+
+Priority : Low 
 
 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
 2. Type in username "Admin" and password "admin123"
@@ -64,6 +73,10 @@ Bug ID : BF - 3
 
 Title : Inconsistency : Required field gest no validation in "Registration Number" unlike unrequired field
 
+Severity : Normal
+
+Priority : Normal 
+
 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
 2. Type in username "Admin" and password "admin123"
 3. Click "Login" button
@@ -87,6 +100,10 @@ Bug ID : BF - 4
 
 Title : The message was written, but I didn't write anything
 
+Severity : Low
+
+Priority : Low 
+
 1. Go to https://www.demoblaze.com/
 2. Log in with correct username and password
 3. Click on "Contact"
@@ -106,6 +123,10 @@ Bug ID : BF - 5
 
 Title : Successful transaction on an expired card
 
+Severity : Critical
+
+Priority : Critical 
+
 1. Go to https://www.demoblaze.com/
 2. Log in with correct username and password
 3. Click on "Samsung Galaxy S6"
@@ -118,6 +139,29 @@ Expected result : The website should warn you about your card
 
 Actual result : The transaction was successfully completed
 
-Test data :  username : 123123 | password : 123123 | Name : Cristian | Country : Spain | Credit card : 3660 6684 5071 2301   
+Test data :  | username : 123123 | password : 123123 | Name : Cristian | Country : Spain | Credit card : 3660 6684 5071 2301   
 Month : 01 | Year : 2021 
+
 ![image](https://github.com/dicacristian/BugsFound/assets/85904271/f78a07fd-d4f6-4772-bde1-09acd4e9d388)
+
+ ______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 6
+
+Severity : Low
+
+Priority : Low 
+
+Title : The "Welcome User" button has no special functionality for users
+
+1. Go to https://www.demoblaze.com/
+2. Log in with correct username and password
+3. Click on "Welcome user", on the right corner
+
+Expected result: User should be redirected to the settings of the account.
+
+Actual result: Nothing special happens on the website.
+
+Test data: | username: 123123 | Password: 123123 |
+
+
