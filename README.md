@@ -71,7 +71,7 @@ ________________________________________________________________________________
 Bug ID : BF - 3
 
 
-Title : Inconsistency : Required field gest no validation in "Registration Number" unlike unrequired field
+Title :  Required field gest no validation in "Registration Number" unlike unrequired field
 
 Severity : Normal
 
@@ -94,9 +94,26 @@ Environment : Google Chrome
 
 
 ______________________________________________________________________________________________________________________________________________________________________
-
-
 Bug ID : BF - 4
+
+ Title : Date of birth can work with the dates from the future
+
+ Severity : Normal 
+
+ Priority : Normal
+
+1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2. Log in with correct username and password
+3. On the left side, click on "My Info"
+4. Scroll down until you see "Date of Birth"
+5. Put birthday 30 December 2023
+
+Expected result : Cannot save changes and user is required to enter a date of birth now or in the past
+
+  Actual result : A new message: "Successfully Updated" 
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 5
 
 Title : The message was written, but I didn't write anything
 
@@ -119,7 +136,7 @@ Test data : username : 123123 | password : 123123
    ![image](https://github.com/dicacristian/BugsFound/assets/85904271/e36a7ee8-bd4c-4125-920f-c18880c664fc)
  ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 5
+Bug ID : BF - 6
 
 Title : Successful transaction on an expired card
 
@@ -146,7 +163,7 @@ Month : 01 | Year : 2021
 
  ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 6
+Bug ID : BF - 7
 
 Severity : Low
 
