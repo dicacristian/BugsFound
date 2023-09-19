@@ -115,8 +115,29 @@ Actual result : A new message: "Successfully Updated"
 Test data : username : Admin | password : admin123
 
 ______________________________________________________________________________________________________________________________________________________________________
-
 Bug ID : BF - 5
+
+ Title : The main language it is not English 
+
+ 1. Go to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+ 2. Log in with correct username and password
+
+    Expected result : The orangeHRM page should be displayed in English
+
+    Actual result : The site is displayed in spanish
+
+    Note : The site goes back to being displayed in English, on refreshing the page
+
+   Test data : username : Admin | password : admin123
+
+   ![image](https://github.com/dicacristian/BugsFound/assets/85904271/9ca39f36-7c49-4ec1-bfea-edb058705006)
+
+
+ 
+
+
+______________________________________________________________________________________________________________________________________________________________________
+Bug ID : BF - 6
 
 Title : The message was written, but I didn't write anything
 
@@ -139,7 +160,7 @@ Test data : username : 123123 | password : 123123
    ![image](https://github.com/dicacristian/BugsFound/assets/85904271/e36a7ee8-bd4c-4125-920f-c18880c664fc)
  ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 6
+Bug ID : BF - 7
 
 Title : Successful transaction on an expired card
 
@@ -166,7 +187,7 @@ Month : 01 | Year : 2021
 
  ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 7
+Bug ID : BF - 8
 
 Severity : Low
 
