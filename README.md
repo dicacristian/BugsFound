@@ -248,3 +248,47 @@ Actual result : The website doesn't let you select how many products you want
 
 Test data: | username: standard_user | Password: secret_sauce |
 
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 11
+
+Severity : Low
+
+Priority : Low 
+
+Title : Same photo for different products
+
+1. Go to https://www.saucedemo.com/
+2. Log in with correct username and password
+3. Try putting 2 different products in your cart
+
+Expected result : Each product should have an individual picture
+
+Actual result : All products has the same photo
+
+Test data :  | username: problem_user | Password: secret_sauce |
+
+![image](https://github.com/dicacristian/BugsFound/assets/85904271/0b93f877-aa54-446f-8d1c-5ffc1c28c928)
+
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 11
+
+Severity : Critical
+
+Priority : Critical
+
+Title : "Last name" field does not let you write
+
+1. Go to https://www.saucedemo.com/
+2. Log in with correct username and password
+3. Select a product
+4. In the right side, click on "Checkout"
+5. Write your First/Last name and Zip code and click on "Continue"
+
+Expected result : Website continues towards finalization of order
+
+Actual result : At the "Last name" field I cannot write, so I cannot finish the order
+
+Test data :  | username: problem_user | Password: secret_sauce |
+
