@@ -83,7 +83,7 @@ Environment : Google Chrome
 ______________________________________________________________________________________________________________________________________________________________________
 
 
-Bug ID : BF - 3
+Bug ID : BF - 4
 
 Title : The message was written, but I didn't write anything
 
@@ -100,5 +100,24 @@ Actual result: Nothing special happens on the website.
 Test data : username : 123123 | password : 123123
 
    ![image](https://github.com/dicacristian/BugsFound/assets/85904271/e36a7ee8-bd4c-4125-920f-c18880c664fc)
+ ______________________________________________________________________________________________________________________________________________________________________
 
-   
+Bug ID : BF - 5
+
+Title : Successful transaction on an expired card
+
+1. Go to https://www.demoblaze.com/
+2. Log in with correct username and password
+3. Click on "Samsung Galaxy S6"
+4. Click on "Add to Cart"
+5. Click on "Cart", then on "Place Order"
+6. Introduce the test data
+7. Press on "Purchase" 
+
+Expected result : The website should warn you about your card
+
+Actual result : The transaction was successfully completed
+
+Test data :  username : 123123 | password : 123123 | Name : Cristian | Country : Spain | Credit card : 3660 6684 5071 2301   
+Month : 01 | Year : 2021 
+![image](https://github.com/dicacristian/BugsFound/assets/85904271/f78a07fd-d4f6-4772-bde1-09acd4e9d388)
