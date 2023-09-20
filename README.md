@@ -206,8 +206,23 @@ Actual result: Nothing special happens on the website.
 Test data: | username: 123123 | Password: 123123 |
 
 ______________________________________________________________________________________________________________________________________________________________________
+Bug ID : BF - 9 
 
-Bug ID : BF - 9
+Title : The Copyright of the website for current year
+
+Severity : Low
+
+Priority : Low 
+
+ 1. Go to https://www.demoblaze.com/
+ 2. Scroll down to the footer of the website
+
+Expected result: The Copyright have to be updated to the current year (2022).
+
+Actual result: The Copyright is not updated to the current year, in this case 2022, but for 2017.
+
+______________________________________________________________________________________________________________________________________________________________________
+Bug ID : BF - 10
 
 Severity : Normal 
 
@@ -229,7 +244,7 @@ Test data: | username: standard_user | Password: secret_sauce | First Name : tes
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 10
+Bug ID : BF - 11
 
 Title : Selecting the same product more than once
 
@@ -250,7 +265,7 @@ Test data: | username: standard_user | Password: secret_sauce |
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 11
+Bug ID : BF - 12
 
 Severity : Low
 
@@ -272,7 +287,7 @@ Test data :  | username: problem_user | Password: secret_sauce |
 
 ______________________________________________________________________________________________________________________________________________________________________
 
-Bug ID : BF - 11
+Bug ID : BF - 13
 
 Severity : Critical
 
@@ -291,4 +306,87 @@ Expected result : Website continues towards finalization of order
 Actual result : At the "Last name" field I cannot write, so I cannot finish the order
 
 Test data :  | username: problem_user | Password: secret_sauce |
+
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 14 
+
+Severity : Low 
+
+Priority : Low 
+
+Title: The required symbol (*) is not displayed in no field on the Registration Form
+
+1. Go to https://demoqa.com/elements
+2. Click on "Web Tables"
+3. Click on "Add" button
+4. Add "abc" into "First Name" field
+5. Add "cde" into "Last Name" field
+6. Add "test.example@gmail.com" into "Email" field
+7. Add "19" into "Age" field
+8. Press the "Subtmit" button
+
+Expected results: All new data should be successfully saved
+
+Actual results: The blank fields have become red, as if they were mandatory, but without being mentioned by that symbol (*)
+   
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 15 
+
+Severity : Low 
+
+Priority : Low 
+
+Title : Copyright is not actualized for the current year (2023) 
+
+1. Go to https://demoqa.com/
+
+Expected result: The Copyright have to be updated to the current year (2023)
+
+Actual result: The Copyright is not updated to the current year, in this case 2023, but for 2013 - 2020
+
+![image](https://github.com/dicacristian/BugsFound/assets/85904271/61518fb8-8af6-4988-8f98-7a899034eee8)  
+
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 16 
+
+
+Severity : Normal 
+
+Priority : Normal 
+
+Title : Shopping cart is empty even though I added something
+
+1. Go to https://demo.opencart.com/
+2. Scroll down until you see the products
+3. Select one of them
+4. Press the shopping cart icon
+5. In the top right side. click on "shopping cart" 
+
+Expected result: Product has been successfully added
+
+Actual result: No products have been added and our shopping cart is empty 
+
+______________________________________________________________________________________________________________________________________________________________________
+
+Bug ID : BF - 17 
+
+Severity : Critical 
+
+Priority: Critical 
+
+Title : Add account credentials and nothing happens
+
+1. Go to https://demo.opencart.com/
+2. On the top side, hover on "My Account", then click on "Register"
+3. Add First/Last Name, email and password with test data
+4. Click on the left button on "I have read and agree to the Privacy Policy"
+5. Press on "Continue" button
+
+Expected result: The account has been successfully created
+
+Actual result: No account has been created
+
 
