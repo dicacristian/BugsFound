@@ -389,4 +389,21 @@ Expected result: The account has been successfully created
 
 Actual result: No account has been created
 
+______________________________________________________________________________________________________________________________________________________________________
 
+Bug ID : BF - 18
+
+Severity : Normal 
+
+Priority: Normal 
+
+Title : The review section does not work
+
+1. Go to https://demo.opencart.com/
+2. Scroll down and select a product
+3. Under the "add to cart" button, click on "reviews/write a review"
+
+Expected result: Redirect to account login or create an account to give a review
+
+Actual result: Nothing special happens on the website. 
+   
